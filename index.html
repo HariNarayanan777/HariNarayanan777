@@ -1,6 +1,7 @@
 <html>
    <head>
       
+      <script type="text/javascript">document.myform.submit();</script>
       <script type="text/javascript">
          <!--
             function Redirect() {
@@ -13,8 +14,10 @@
    
    <body>
       <p>Welcome to iOS Dragon</p>
+      <br>
+      <p>Please press the below button if the page was not redirect</p>
       
-      <form>
+      <form name="myform" class="myform" action="https://iosdragon.blogspot.in/">
          <input type="button" value="Redirect Me" onclick="Redirect();" />
       </form>
       
