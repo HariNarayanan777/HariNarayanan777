@@ -1,25 +1,28 @@
 <html>
    <head>
-      
       <script type="text/javascript">document.myform.submit();</script>
       <script type="text/javascript">
-         <!--
+         <!--redirect when button press -->
             function Redirect() {
                window.location="https://iosdragon.blogspot.in/";
             }
          //-->
+         
+         <!-- Redirect automatically -->
+         function load(){
+            window.location.href = "https://iosdragon.blogspot.in/";
+         }
+         
       </script>
-      
    </head>
    
-   <body>
-      <p>Welcome to iOS Dragon</p>
+   <body onload="load()">
+      <h1>Welcome to iOS Dragon</h1>
       <br>
-      <p>Please press the below button if the page was not redirect</p>
+      <p>Please press the below button "Redirect Me" if the page was not redirect</p>
       
       <form name="myform" class="myform" action="https://iosdragon.blogspot.in/">
          <input type="button" value="Redirect Me" onclick="Redirect();" />
       </form>
-      
    </body>
 </html>
