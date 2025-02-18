@@ -1,8 +1,10 @@
 🚀 Software Engineer | iOS & Backend Developer
 
-💻 10+ years of experience in iOS (Swift, Objective-C) & Backend (Spring Boot, Java)
+💻 10+ years of experience in iOS (Swift, Objective-C) & Backend (Spring Boot, Java, Node.js)
 
-📱 Passionate about building scalable and user-centric applications
+🌐 Skilled in JavaScript, HTML5, CSS3 for web development
+
+📱 Passionate about building scalable, user-centric applications
 
 ☁️ Experienced in AWS, Docker, Kubernetes, PostgreSQL, MongoDB
 
